@@ -44,7 +44,6 @@
                     </unit>
                     <layout>
                         colset A = unit with abobora;
-
                     </layout>
                 </color>
                 <color id='ID4'>
@@ -60,7 +59,6 @@
                     </unit>
                     <layout>
                         colset C = unit with Cinderela;
-
                     </layout>
                 </color>
                 <color id='ID3'>
@@ -80,7 +78,6 @@
                     </enum>
                     <layout>
                         colset G = with arroz | aveia | trigo;
-
                     </layout>
                 </color>
                 <color id='ID1412312409'>
@@ -96,7 +93,6 @@
                     </unit>
                     <layout>
                         colset R = unit with rato;
-
                     </layout>
                 </color>
                 <color id='ID1412312425'>
@@ -193,26 +189,26 @@
             <constraints>
             </constraints>
             <place id='ID3114462007'>
-                <posattr x='104.000000' y='-28.000000'/>
+                <posattr x='-204.000000' y='26.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     baile
                 </text>
-                <ellipse w='70.000000' h='40.000000'/>
+                <ellipse w='86.000000' h='42.000000'/>
                 <token x='0.000000' y='0.000000'>
                     <text>
                     </text>
                 </token>
-                <marking x='-229.000000' y='71.000000' hidden='false'>
+                <marking x='-220.000000' y='82.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         empty
                     </text>
                 </marking>
                 <type id='ID3114462007a'>
-                    <posattr x='150.000000' y='-69.000000'/>
+                    <posattr x='-160.000000' y='-8.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -221,7 +217,7 @@
                     </text>
                 </type>
                 <initmark id='ID3114462007b'>
-                    <posattr x='183.000000' y='-25.000000'/>
+                    <posattr x='-117.000000' y='30.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -268,7 +264,7 @@
                 </initmark>
             </place>
             <place id='ID3114567370'>
-                <posattr x='-313.000000' y='-28.000000'/>
+                <posattr x='-313.000000' y='-47.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -288,7 +284,7 @@
                     </text>
                 </marking>
                 <type id='ID3114567370a'>
-                    <posattr x='-273.000000' y='-47.000000'/>
+                    <posattr x='-273.000000' y='-66.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -297,7 +293,7 @@
                     </text>
                 </type>
                 <initmark id='ID3114567370b'>
-                    <posattr x='-236.000000' y='8.000000'/>
+                    <posattr x='-260.000000' y='-16.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -539,7 +535,7 @@
                 </initmark>
             </place>
             <trans id='ID3114499271'>
-                <posattr x='-90.000000' y='-27.000000'/>
+                <posattr x='-89.000000' y='-47.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -548,7 +544,7 @@
                 </text>
                 <box w='77.000000' h='41.000000'/>
                 <cond id='ID3114499271a'>
-                    <posattr x='-101.000000' y='12.000000'/>
+                    <posattr x='-100.000000' y='-8.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -556,7 +552,7 @@
                     </text>
                 </cond>
                 <time id='ID3114499271b'>
-                    <posattr x='-37.000000' y='12.000000'/>
+                    <posattr x='-36.000000' y='-8.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -564,7 +560,7 @@
                     </text>
                 </time>
                 <code id='ID3114499271c'>
-                    <posattr x='-37.000000' y='-43.000000'/>
+                    <posattr x='-36.000000' y='-63.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -572,7 +568,7 @@
                     </text>
                 </code>
                 <priority id='ID3114499271d'>
-                    <posattr x='-101.000000' y='-43.000000'/>
+                    <posattr x='-100.000000' y='-63.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -715,7 +711,7 @@
                 <transend idref='ID3114499271'/>
                 <placeend idref='ID3114462007'/>
                 <annot id='ID3114508938a'>
-                    <posattr x='13.000000' y='-13.000000'/>
+                    <posattr x='-144.000000' y='3.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -735,7 +731,7 @@
                 <transend idref='ID3114499271'/>
                 <placeend idref='ID3114482474'/>
                 <annot id='ID3114511386a'>
-                    <posattr x='-71.000000' y='28.000000'/>
+                    <posattr x='-108.000000' y='16.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -775,7 +771,7 @@
                 <transend idref='ID3114526948'/>
                 <placeend idref='ID3114462007'/>
                 <annot id='ID3114551126a'>
-                    <posattr x='-134.000000' y='157.000000'/>
+                    <posattr x='-287.000000' y='57.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -785,14 +781,8 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID3115775394' serial='1'>
-                    <posattr x='-313.000000' y='138.000000'/>
-                    <fillattr colour='White' pattern='Solid' filled='false'/>
-                    <lineattr colour='Black' thick='1' type='Solid'/>
-                    <textattr colour='Black' bold='false'/>
-                </bendpoint>
-                <bendpoint id='ID3115775393' serial='1'>
-                    <posattr x='104.000000' y='138.000000'/>
+                <bendpoint id='ID3116613945' serial='1'>
+                    <posattr x='-302.000000' y='25.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -807,7 +797,7 @@
                 <transend idref='ID3114526948'/>
                 <placeend idref='ID3114567370'/>
                 <annot id='ID3114586935a'>
-                    <posattr x='-302.000000' y='46.000000'/>
+                    <posattr x='-302.000000' y='39.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -827,7 +817,7 @@
                 <transend idref='ID3114499271'/>
                 <placeend idref='ID3114567370'/>
                 <annot id='ID3114593358a'>
-                    <posattr x='-215.000000' y='-12.000000'/>
+                    <posattr x='-215.000000' y='-32.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -867,7 +857,7 @@
                 <transend idref='ID3114603599'/>
                 <placeend idref='ID3114567370'/>
                 <annot id='ID3114631829a'>
-                    <posattr x='-282.000000' y='-85.000000'/>
+                    <posattr x='-282.000000' y='-95.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -887,7 +877,7 @@
                 <transend idref='ID3114603599'/>
                 <placeend idref='ID3114482474'/>
                 <annot id='ID3114638302a'>
-                    <posattr x='-149.000000' y='-72.000000'/>
+                    <posattr x='-163.000000' y='-86.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -897,6 +887,24 @@
                 </annot>
                 <text>
                 </text>
+                <bendpoint id='ID3116613948' serial='1'>
+                    <posattr x='-244.000000' y='-96.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                </bendpoint>
+                <bendpoint id='ID3116613949' serial='1'>
+                    <posattr x='-3.000000' y='-96.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                </bendpoint>
+                <bendpoint id='ID3116613950' serial='1'>
+                    <posattr x='-3.000000' y='96.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                </bendpoint>
             </arc>
             <arc id='ID3114671914' orientation='TtoP' order='1'>
                 <posattr x='0.000000' y='0.000000'/>

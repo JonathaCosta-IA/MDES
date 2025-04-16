@@ -781,7 +781,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID3175355610' serial='1'>
+                <bendpoint id='ID4317608171' serial='1'>
                     <posattr x='-302.000000' y='25.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -848,7 +848,7 @@
                 <text>
                 </text>
             </arc>
-            <arc id='ID3114631829' orientation='TtoP' order='1'>
+            <arc id='ID3114631829' orientation='BOTHDIR' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
@@ -857,7 +857,7 @@
                 <transend idref='ID3114603599'/>
                 <placeend idref='ID3114567370'/>
                 <annot id='ID3114631829a'>
-                    <posattr x='-282.000000' y='-95.000000'/>
+                    <posattr x='-281.000000' y='-95.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -887,19 +887,19 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID3175355612' serial='1'>
+                <bendpoint id='ID4317608175' serial='1'>
                     <posattr x='-244.000000' y='-96.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID3175355613' serial='1'>
+                <bendpoint id='ID4317608176' serial='1'>
                     <posattr x='-3.000000' y='-96.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID3175355614' serial='1'>
+                <bendpoint id='ID4317608177' serial='1'>
                     <posattr x='-3.000000' y='96.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

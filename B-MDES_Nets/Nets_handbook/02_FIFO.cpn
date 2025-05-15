@@ -47,11 +47,11 @@
                     </id>
                     <list>
                         <id>
-                            int
+                            INT
                         </id>
                     </list>
                     <layout>
-                        colset IntList = list int with 1`[];
+                        colset IntList = list INT with 1`[];
                     </layout>
                 </color>
                 <var id='ID1412330717'>
@@ -92,13 +92,15 @@
                     P1
                 </text>
                 <ellipse w='70.000000' h='40.000000'/>
-                <token x='0.000000' y='0.000000'>
+                <token x='-24.000000' y='78.000000'>
                     <text>
+                        1
                     </text>
                 </token>
-                <marking x='0.000000' y='0.000000' hidden='false'>
+                <marking x='-3.000000' y='41.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
+                        1`9
                     </text>
                 </marking>
                 <type id='ID7231128258a'>
@@ -129,13 +131,15 @@
                     P2
                 </text>
                 <ellipse w='70.000000' h='40.000000'/>
-                <token x='0.000000' y='0.000000'>
+                <token x='-14.000000' y='69.000000'>
                     <text>
+                        1
                     </text>
                 </token>
                 <marking x='-16.000000' y='0.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
+                        1`[8,5,7]
                     </text>
                 </marking>
                 <type id='ID7231132134a'>
@@ -148,11 +152,12 @@
                     </text>
                 </type>
                 <initmark id='ID7231132134b'>
-                    <posattr x='8.000000' y='197.000000'/>
+                    <posattr x='4.000000' y='197.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
+                        1`[]
                     </text>
                 </initmark>
             </place>
@@ -309,7 +314,7 @@
                 <transend idref='ID7231163485'/>
                 <placeend idref='ID7231132134'/>
                 <annot id='ID7231184995a'>
-                    <posattr x='24.000000' y='128.000000'/>
+                    <posattr x='27.000000' y='122.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -319,13 +324,13 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7231309898' serial='1'>
+                <bendpoint id='ID7231907415' serial='1'>
                     <posattr x='107.000000' y='109.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID7231309899' serial='1'>
+                <bendpoint id='ID7231907416' serial='1'>
                     <posattr x='-46.000000' y='109.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -341,7 +346,7 @@
                 <transend idref='ID7231137836'/>
                 <placeend idref='ID7231132134'/>
                 <annot id='ID7231196912a'>
-                    <posattr x='-133.000000' y='124.000000'/>
+                    <posattr x='-132.000000' y='119.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -351,13 +356,13 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7231309902' serial='1'>
+                <bendpoint id='ID7231907418' serial='1'>
                     <posattr x='-191.000000' y='107.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID7231309901' serial='1'>
+                <bendpoint id='ID7231907417' serial='1'>
                     <posattr x='-46.000000' y='107.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

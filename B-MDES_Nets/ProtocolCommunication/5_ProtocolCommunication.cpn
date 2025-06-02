@@ -881,7 +881,7 @@ else empty
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7948705554' serial='1'>
+                <bendpoint id='ID8897292640' serial='1'>
                     <posattr x='337.000000' y='225.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -909,7 +909,7 @@ else dado
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7948705555' serial='1'>
+                <bendpoint id='ID8897292642' serial='1'>
                     <posattr x='427.000000' y='128.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -937,7 +937,7 @@ else Receber(k)
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7948705557' serial='1'>
+                <bendpoint id='ID8897292643' serial='1'>
                     <posattr x='337.000000' y='14.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

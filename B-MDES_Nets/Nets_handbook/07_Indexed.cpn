@@ -69,7 +69,7 @@
             </block>
         </globbox>
         <page id='ID6'>
-            <pageattr name='myNet'/>
+            <pageattr name='Net_colset_Index'/>
             <constraints>
             </constraints>
             <place id='ID8463688867'>
@@ -252,7 +252,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8630962520' serial='1'>
+                <bendpoint id='ID9152419698' serial='1'>
                     <posattr x='-420.000000' y='305.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -298,7 +298,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8630962521' serial='1'>
+                <bendpoint id='ID9152419699' serial='1'>
                     <posattr x='-421.000000' y='242.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

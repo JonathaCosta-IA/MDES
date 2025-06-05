@@ -57,7 +57,7 @@
             </block>
         </globbox>
         <page id='ID6'>
-            <pageattr name='myNet'/>
+            <pageattr name='Net_String_colset'/>
             <constraints>
             </constraints>
             <place id='ID8463688867'>
@@ -320,7 +320,7 @@ then 1`user else empty
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8603498315' serial='1'>
+                <bendpoint id='ID9152299635' serial='1'>
                     <posattr x='-406.000000' y='298.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -367,7 +367,7 @@ then 1`user else empty
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8603498317' serial='1'>
+                <bendpoint id='ID9152299637' serial='1'>
                     <posattr x='-407.000000' y='244.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -393,7 +393,7 @@ then 1`user else empty
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8603498318' serial='1'>
+                <bendpoint id='ID9152299638' serial='1'>
                     <posattr x='-407.000000' y='200.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -421,7 +421,7 @@ empty
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8603498319' serial='1'>
+                <bendpoint id='ID9152299639' serial='1'>
                     <posattr x='-407.000000' y='146.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

@@ -126,7 +126,7 @@
             </block>
         </globbox>
         <page id='ID6'>
-            <pageattr name='myNet'/>
+            <pageattr name='Net_colset_product'/>
             <constraints>
             </constraints>
             <place id='ID8463797034'>
@@ -438,7 +438,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8895057146' serial='1'>
+                <bendpoint id='ID9152625094' serial='1'>
                     <posattr x='-231.000000' y='294.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -464,7 +464,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8895057147' serial='1'>
+                <bendpoint id='ID9152625095' serial='1'>
                     <posattr x='-231.000000' y='294.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -500,7 +500,7 @@
                 <transend idref='ID8647210024'/>
                 <placeend idref='ID8647085429'/>
                 <annot id='ID8647226192a'>
-                    <posattr x='25.000000' y='321.000000'/>
+                    <posattr x='28.000000' y='324.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -510,13 +510,13 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8895038458' serial='1'>
+                <bendpoint id='ID9152642316' serial='1'>
                     <posattr x='40.000000' y='294.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID8895038457' serial='1'>
+                <bendpoint id='ID9152642315' serial='1'>
                     <posattr x='25.000000' y='281.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

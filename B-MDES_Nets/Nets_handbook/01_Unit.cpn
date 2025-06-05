@@ -98,7 +98,7 @@
             </block>
         </globbox>
         <page id='ID6'>
-            <pageattr name='myNet'/>
+            <pageattr name='Net_Unit_colset'/>
             <constraints>
             </constraints>
             <place id='ID7347092403'>
@@ -110,15 +110,15 @@
                     P1     Tipo de aço
                 </text>
                 <ellipse w='79.000000' h='63.000000'/>
-                <token x='-93.000000' y='58.000000'>
+                <token x='-89.000000' y='66.000000'>
                     <text>
-                        5
+                        4
                     </text>
                 </token>
-                <marking x='0.000000' y='19.000000' hidden='false'>
+                <marking x='-79.000000' y='6.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        5`aco
+                        4`aco
                     </text>
                 </marking>
                 <type id='ID7347092403a'>
@@ -141,7 +141,7 @@
                 </initmark>
             </place>
             <place id='ID7347234284'>
-                <posattr x='-421.000000' y='128.000000'/>
+                <posattr x='-420.000000' y='168.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -149,12 +149,12 @@
                     P2           Tipo de ferramenta
                 </text>
                 <ellipse w='92.000000' h='77.000000'/>
-                <token x='-114.000000' y='63.000000'>
+                <token x='-85.000000' y='70.000000'>
                     <text>
                         3
                     </text>
                 </token>
-                <marking x='-3.000000' y='45.000000' hidden='false'>
+                <marking x='-150.000000' y='16.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         1`ferramenta1++
@@ -163,7 +163,7 @@
                     </text>
                 </marking>
                 <type id='ID7347234284a'>
-                    <posattr x='-368.000000' y='86.000000'/>
+                    <posattr x='-367.000000' y='126.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -172,7 +172,7 @@
                     </text>
                 </type>
                 <initmark id='ID7347234284b'>
-                    <posattr x='-421.000000' y='179.000000'/>
+                    <posattr x='-420.000000' y='219.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -190,7 +190,7 @@
                     P3 Usinagem
                 </text>
                 <ellipse w='77.000000' h='56.000000'/>
-                <token x='-74.000000' y='53.000000'>
+                <token x='-72.000000' y='53.000000'>
                     <text>
                         1
                     </text>
@@ -198,7 +198,7 @@
                 <marking x='-4.000000' y='0.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        empty
+                        1`()
                     </text>
                 </marking>
                 <type id='ID7348554697a'>
@@ -290,7 +290,7 @@
                 <transend idref='ID7347094425'/>
                 <placeend idref='ID7347234284'/>
                 <annot id='ID7347264834a'>
-                    <posattr x='-322.000000' y='209.000000'/>
+                    <posattr x='-320.000000' y='230.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>

@@ -81,7 +81,7 @@
             </block>
         </globbox>
         <page id='ID6'>
-            <pageattr name='myNet'/>
+            <pageattr name='Net_colset_enumerated'/>
             <constraints>
             </constraints>
             <place id='ID8463688867'>
@@ -116,7 +116,7 @@
                     </text>
                 </type>
                 <initmark id='ID8463688867b'>
-                    <posattr x='-463.000000' y='312.000000'/>
+                    <posattr x='-481.000000' y='304.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -264,7 +264,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8605426681' serial='1'>
+                <bendpoint id='ID9152359195' serial='1'>
                     <posattr x='-406.000000' y='305.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -310,7 +310,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8605426682' serial='1'>
+                <bendpoint id='ID9152359197' serial='1'>
                     <posattr x='-407.000000' y='242.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>

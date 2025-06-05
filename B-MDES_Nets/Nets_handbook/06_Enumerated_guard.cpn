@@ -31,96 +31,52 @@
                 <id>
                     Standard declarations
                 </id>
-                <color id='ID85042'>
-                    <id>
-                        NUM
-                    </id>
-                    <int>
-                        <with>
-                            <ml>
-                                1
-                            </ml>
-                            <ml>
-                                5
-                            </ml>
-                        </with>
-                    </int>
-                    <layout>
-                        colset NUM = int with 1..5;
-                    </layout>
-                </color>
                 <color id='ID5'>
                     <id>
-                        LETRA
+                        DIAS
                     </id>
-                    <string>
-                    </string>
+                    <enum>
+                        <id>
+                            segunda
+                        </id>
+                        <id>
+                            terca
+                        </id>
+                        <id>
+                            quarta
+                        </id>
+                        <id>
+                            quinta
+                        </id>
+                        <id>
+                            sexta
+                        </id>
+                        <id>
+                            sabado
+                        </id>
+                        <id>
+                            domingo
+                        </id>
+                    </enum>
                     <layout>
-                        colset LETRA = string;
-                    </layout>
-                </color>
-                <color id='ID8914252968'>
-                    <id>
-                        ALF
-                    </id>
-                    <union>
-                        <unionfield>
-                            <id>
-                                id1
-                            </id>
-                            <type>
-                                <id>
-                                    NUM
-                                </id>
-                            </type>
-                        </unionfield>
-                        <unionfield>
-                            <id>
-                                id2
-                            </id>
-                            <type>
-                                <id>
-                                    LETRA
-                                </id>
-                            </type>
-                        </unionfield>
-                    </union>
-                    <layout>
-                        colset ALF = union id1: NUM + id2: LETRA;
+                        colset DIAS = with segunda|terca|quarta|quinta|sexta|sabado|domingo;
                     </layout>
                 </color>
                 <var id='ID1412330717'>
                     <type>
                         <id>
-                            NUM
+                            DIAS
                         </id>
                     </type>
                     <id>
-                        x
+                        dia
                     </id>
                 </var>
-                <var id='ID8914228628'>
-                    <type>
-                        <id>
-                            LETRA
-                        </id>
-                    </type>
-                    <id>
-                        y
-                    </id>
-                </var>
-                <var id='ID8914274864'>
-                    <type>
-                        <id>
-                            ALF
-                        </id>
-                    </type>
-                    <id>
-                        p
-                    </id>
-                </var>
-                <ml id='ID8914129350'>
-                    val letras = 1`&quot;a&quot;++1`&quot;b&quot;++1`&quot;c&quot;;
+                <ml id='ID8604419592'>
+                    fun FimdeSemana dia = if (dia=sabado orelse dia=domingo) then 1`dia else empty;
+                </ml>
+                <ml id='ID8604539644'>
+                    fun DiaUtil dia = if dia&lt;&gt;sabado andalso dia&lt;&gt;domingo then 1`dia else empty;
                 </ml>
             </block>
         </globbox>
@@ -128,120 +84,118 @@
             <pageattr name='myNet'/>
             <constraints>
             </constraints>
-            <place id='ID8913820320'>
-                <posattr x='-333.000000' y='225.000000'/>
+            <place id='ID8463688867'>
+                <posattr x='-576.000000' y='216.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     P1
                 </text>
-                <ellipse w='50.000000' h='36.000000'/>
-                <token x='-10.000000' y='62.000000'>
+                <ellipse w='51.000000' h='30.000000'/>
+                <token x='-34.000000' y='52.000000'>
                     <text>
                         4
                     </text>
                 </token>
-                <marking x='-3.000000' y='37.000000' hidden='false'>
+                <marking x='2.000000' y='76.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`1++
-1`3++
-1`4++
-1`5
+                        1`segunda++
+1`terca++
+1`quarta++
+1`domingo
                     </text>
                 </marking>
-                <type id='ID8913820320a'>
-                    <posattr x='-296.000000' y='200.000000'/>
+                <type id='ID8463688867a'>
+                    <posattr x='-531.000000' y='199.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        NUM
+                        DIAS
                     </text>
                 </type>
-                <initmark id='ID8913820320b'>
-                    <posattr x='-275.000000' y='251.000000'/>
+                <initmark id='ID8463688867b'>
+                    <posattr x='-560.000000' y='256.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        NUM.all()
+                        DIAS.all()
                     </text>
                 </initmark>
             </place>
-            <place id='ID8913822548'>
-                <posattr x='-333.000000' y='133.000000'/>
+            <place id='ID8463797034'>
+                <posattr x='-186.000000' y='258.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     P2
                 </text>
-                <ellipse w='55.000000' h='42.000000'/>
-                <token x='-17.000000' y='43.000000'>
+                <ellipse w='49.000000' h='39.000000'/>
+                <token x='2.000000' y='36.000000'>
                     <text>
                         2
                     </text>
                 </token>
-                <marking x='2.000000' y='4.000000' hidden='false'>
+                <marking x='26.000000' y='45.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`&quot;a&quot;++
-1`&quot;c&quot;
+                        1`quinta++
+1`sexta
                     </text>
                 </marking>
-                <type id='ID8913822548a'>
-                    <posattr x='-287.000000' y='105.000000'/>
+                <type id='ID8463797034a'>
+                    <posattr x='-145.000000' y='238.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        LETRA
+                        DIAS
                     </text>
                 </type>
-                <initmark id='ID8913822548b'>
-                    <posattr x='-289.000000' y='154.000000'/>
+                <initmark id='ID8463797034b'>
+                    <posattr x='-143.000000' y='285.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        letras
                     </text>
                 </initmark>
             </place>
-            <place id='ID8914239182'>
-                <posattr x='-123.000000' y='181.000000'/>
+            <place id='ID8464007634'>
+                <posattr x='-186.000000' y='134.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     P3
                 </text>
-                <ellipse w='56.000000' h='42.000000'/>
-                <token x='-16.000000' y='52.000000'>
+                <ellipse w='52.000000' h='37.000000'/>
+                <token x='-13.000000' y='27.000000'>
                     <text>
-                        2
+                        1
                     </text>
                 </token>
-                <marking x='0.000000' y='35.000000' hidden='false'>
+                <marking x='9.000000' y='-6.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`id1(2)++
-1`id2(&quot;b&quot;)
+                        1`sabado
                     </text>
                 </marking>
-                <type id='ID8914239182a'>
-                    <posattr x='-83.000000' y='153.000000'/>
+                <type id='ID8464007634a'>
+                    <posattr x='-147.000000' y='113.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        ALF
+                        DIAS
                     </text>
                 </type>
-                <initmark id='ID8914239182b'>
-                    <posattr x='-76.000000' y='210.000000'/>
+                <initmark id='ID8464007634b'>
+                    <posattr x='-141.000000' y='160.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -249,41 +203,44 @@
                     </text>
                 </initmark>
             </place>
-            <trans id='ID8915441933'>
-                <posattr x='-211.000000' y='225.000000'/>
+            <trans id='ID8463791515'>
+                <posattr x='-356.000000' y='259.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Black' thick='1' type='Solid'/>
+                <lineattr colour='Blue' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
-                    T1
+                    DiaUtil
                 </text>
-                <box w='50.000000' h='16.000000'/>
-                <cond id='ID8915441933a'>
-                    <posattr x='-230.000000' y='241.000000'/>
+                <box w='58.000000' h='22.000000'/>
+                <cond id='ID8463791515a'>
+                    <posattr x='-405.000000' y='297.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
+                        [dia&lt;&gt;sabado
+andalso
+dia&lt;&gt;domingo]
                     </text>
                 </cond>
-                <time id='ID8915441933b'>
-                    <posattr x='-193.000000' y='241.000000'/>
+                <time id='ID8463791515b'>
+                    <posattr x='-335.000000' y='278.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
                     </text>
                 </time>
-                <code id='ID8915441933c'>
-                    <posattr x='-193.000000' y='210.000000'/>
+                <code id='ID8463791515c'>
+                    <posattr x='-335.000000' y='241.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
                     </text>
                 </code>
-                <priority id='ID8915441933d'>
-                    <posattr x='-230.000000' y='210.000000'/>
+                <priority id='ID8463791515d'>
+                    <posattr x='-379.000000' y='241.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -291,41 +248,44 @@
                     </text>
                 </priority>
             </trans>
-            <trans id='ID8915447486'>
-                <posattr x='-211.000000' y='133.000000'/>
+            <trans id='ID9070595203'>
+                <posattr x='-364.000000' y='135.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Black' thick='1' type='Solid'/>
+                <lineattr colour='Blue' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
-                    T2
+                    FimSemana
                 </text>
-                <box w='46.000000' h='18.000000'/>
-                <cond id='ID8915447486a'>
-                    <posattr x='-228.000000' y='150.000000'/>
+                <box w='73.000000' h='20.000000'/>
+                <cond id='ID9070595203a'>
+                    <posattr x='-407.000000' y='173.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
+                        [dia=sabado
+orelse
+dia=domingo]
                     </text>
                 </cond>
-                <time id='ID8915447486b'>
-                    <posattr x='-195.000000' y='150.000000'/>
+                <time id='ID9070595203b'>
+                    <posattr x='-335.000000' y='153.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
                     </text>
                 </time>
-                <code id='ID8915447486c'>
-                    <posattr x='-195.000000' y='118.000000'/>
+                <code id='ID9070595203c'>
+                    <posattr x='-335.000000' y='119.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
                     </text>
                 </code>
-                <priority id='ID8915447486d'>
-                    <posattr x='-228.000000' y='118.000000'/>
+                <priority id='ID9070595203d'>
+                    <posattr x='-394.000000' y='119.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -333,85 +293,117 @@
                     </text>
                 </priority>
             </trans>
-            <arc id='ID8915476409' orientation='PtoT' order='1'>
+            <arc id='ID8463816168' orientation='PtoT' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
-                <transend idref='ID8915441933'/>
-                <placeend idref='ID8913820320'/>
-                <annot id='ID8915476409a'>
-                    <posattr x='-276.000000' y='235.000000'/>
+                <transend idref='ID8463791515'/>
+                <placeend idref='ID8463688867'/>
+                <annot id='ID8463816168a'>
+                    <posattr x='-501.000000' y='241.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        x
+                        dia
+                    </text>
+                </annot>
+                <text>
+                </text>
+                <bendpoint id='ID9071722447' serial='1'>
+                    <posattr x='-501.000000' y='259.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                </bendpoint>
+            </arc>
+            <arc id='ID9070408989' orientation='PtoT' order='1'>
+                <posattr x='0.000000' y='0.000000'/>
+                <fillattr colour='White' pattern='Solid' filled='false'/>
+                <lineattr colour='Black' thick='1' type='Solid'/>
+                <textattr colour='Black' bold='false'/>
+                <arrowattr headsize='1' currentcyckle='2'/>
+                <transend idref='ID9070397617'/>
+                <placeend idref='ID8463688867'/>
+                <annot id='ID9070408989a'>
+                    <posattr x='-483.000000' y='189.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                        dia
                     </text>
                 </annot>
                 <text>
                 </text>
             </arc>
-            <arc id='ID8915492834' orientation='TtoP' order='1'>
+            <arc id='ID9070540057' orientation='TtoP' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
-                <transend idref='ID8915441933'/>
-                <placeend idref='ID8914239182'/>
-                <annot id='ID8915492834a'>
-                    <posattr x='-143.000000' y='211.000000'/>
+                <transend idref='ID8463791515'/>
+                <placeend idref='ID8463797034'/>
+                <annot id='ID9070540057a'>
+                    <posattr x='-281.000000' y='267.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        id1 x
+                        dia
                     </text>
                 </annot>
                 <text>
                 </text>
             </arc>
-            <arc id='ID8915515350' orientation='PtoT' order='1'>
+            <arc id='ID9070607518' orientation='TtoP' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
-                <transend idref='ID8915447486'/>
-                <placeend idref='ID8913822548'/>
-                <annot id='ID8915515350a'>
-                    <posattr x='-278.000000' y='142.000000'/>
+                <transend idref='ID9070595203'/>
+                <placeend idref='ID8464007634'/>
+                <annot id='ID9070607518a'>
+                    <posattr x='-274.000000' y='144.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        y
+                        dia
                     </text>
                 </annot>
                 <text>
                 </text>
             </arc>
-            <arc id='ID8915529492' orientation='TtoP' order='1'>
+            <arc id='ID9070630336' orientation='PtoT' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
-                <transend idref='ID8915447486'/>
-                <placeend idref='ID8914239182'/>
-                <annot id='ID8915529492a'>
-                    <posattr x='-156.000000' y='135.000000'/>
+                <transend idref='ID9070595203'/>
+                <placeend idref='ID8463688867'/>
+                <annot id='ID9070630336a'>
+                    <posattr x='-501.000000' y='149.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        id2 y
+                        dia
                     </text>
                 </annot>
                 <text>
                 </text>
+                <bendpoint id='ID9071722453' serial='1'>
+                    <posattr x='-509.000000' y='135.000000'/>
+                    <fillattr colour='White' pattern='Solid' filled='false'/>
+                    <lineattr colour='Black' thick='1' type='Solid'/>
+                    <textattr colour='Black' bold='false'/>
+                </bendpoint>
             </arc>
         </page>
         <instances>

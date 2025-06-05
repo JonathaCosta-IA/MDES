@@ -343,13 +343,13 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9152197783' serial='1'>
+                <bendpoint id='ID9160165542' serial='1'>
                     <posattr x='107.000000' y='109.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID9152197784' serial='1'>
+                <bendpoint id='ID9160165543' serial='1'>
                     <posattr x='-46.000000' y='109.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -375,13 +375,13 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9152197786' serial='1'>
+                <bendpoint id='ID9160165545' serial='1'>
                     <posattr x='-191.000000' y='107.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID9152197785' serial='1'>
+                <bendpoint id='ID9160165544' serial='1'>
                     <posattr x='-46.000000' y='107.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -508,8 +508,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <place id='ID9148626670'>
@@ -547,8 +546,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <place id='ID9149340393'>
@@ -585,8 +583,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <place id='ID9150816178'>
@@ -623,8 +620,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <place id='ID9151071897'>
@@ -661,8 +657,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <place id='ID9151525033'>
@@ -699,8 +694,7 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </initmark>
             </place>
             <trans id='ID9148109983'>
@@ -717,32 +711,28 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </cond>
                 <time id='ID9148109983b'>
                     <posattr x='-76.000000' y='110.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </time>
                 <code id='ID9148109983c'>
                     <posattr x='-76.000000' y='67.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </code>
                 <priority id='ID9148109983d'>
                     <posattr x='-113.000000' y='67.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </priority>
             </trans>
             <trans id='ID9148152255'>
@@ -759,32 +749,28 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </cond>
                 <time id='ID9148152255b'>
                     <posattr x='187.000000' y='110.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </time>
                 <code id='ID9148152255c'>
                     <posattr x='187.000000' y='67.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </code>
                 <priority id='ID9148152255d'>
                     <posattr x='145.000000' y='67.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'>
-                    </text>
+                    <text tool='CPN Tools' version='4.0.1'/>
                 </priority>
             </trans>
             <arc id='ID9148109989' orientation='BOTHDIR' order='1'>

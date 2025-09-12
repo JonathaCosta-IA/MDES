@@ -243,7 +243,7 @@
                 <marking x='-64.000000' y='-6.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`abobora
+                        empty
                     </text>
                 </marking>
                 <type id='ID3114482474a'>
@@ -320,7 +320,7 @@
                 <marking x='43.000000' y='-1.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        empty
+                        1`Fada
                     </text>
                 </marking>
                 <type id='ID3114610562a'>
@@ -359,7 +359,7 @@
                 <marking x='-6.000000' y='0.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        12`rato
+                        empty
                     </text>
                 </marking>
                 <type id='ID3114665614a'>
@@ -752,7 +752,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID4317585772' serial='1'>
+                <bendpoint id='ID7699786999' serial='1'>
                     <posattr x='-302.000000' y='25.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -858,19 +858,19 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID4317585776' serial='1'>
+                <bendpoint id='ID7699787002' serial='1'>
                     <posattr x='-313.000000' y='-98.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID4317585777' serial='1'>
+                <bendpoint id='ID7699787003' serial='1'>
                     <posattr x='-3.000000' y='-99.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                 </bendpoint>
-                <bendpoint id='ID4317585778' serial='1'>
+                <bendpoint id='ID7699787004' serial='1'>
                     <posattr x='-3.000000' y='96.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -1161,7 +1161,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID3185401913' serial='1'>
+                <bendpoint id='ID7699787014' serial='1'>
                     <posattr x='-15.000000' y='-219.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -1187,7 +1187,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID3185401914' serial='1'>
+                <bendpoint id='ID7699787015' serial='1'>
                     <posattr x='10.000000' y='-341.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -1251,7 +1251,7 @@
                 <marking x='-139.000000' y='-79.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        12`rato
+                        empty
                     </text>
                 </marking>
                 <type id='ID3183370652a'>
@@ -1268,7 +1268,8 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </initmark>
                 <port id='ID3183370652e' type='I/O'>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
@@ -1297,7 +1298,7 @@
                 <marking x='-10.000000' y='18.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        7`trigo
+                        empty
                     </text>
                 </marking>
                 <type id='ID3183372258a'>
@@ -1314,7 +1315,8 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </initmark>
                 <port id='ID3183372258e' type='Out'>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
@@ -1343,7 +1345,7 @@
                 <marking x='-6.000000' y='17.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        2`arroz
+                        empty
                     </text>
                 </marking>
                 <type id='ID3183374964a'>
@@ -1360,7 +1362,8 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </initmark>
                 <port id='ID3183374964e' type='Out'>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
@@ -1389,7 +1392,7 @@
                 <marking x='-8.000000' y='17.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        5`aveia
+                        empty
                     </text>
                 </marking>
                 <type id='ID3183951174a'>
@@ -1406,7 +1409,8 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </initmark>
                 <port id='ID3183951174e' type='Out'>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
@@ -1429,15 +1433,15 @@
                 <ellipse w='70.000000' h='40.000000'/>
                 <token x='-47.000000' y='59.000000'>
                     <text>
-                        806
+                        820
                     </text>
                 </token>
                 <marking x='-192.000000' y='20.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        248`arroz++
-295`aveia++
-263`trigo
+                        250`arroz++
+300`aveia++
+270`trigo
                     </text>
                 </marking>
                 <type id='ID3184003340a'>
@@ -1473,28 +1477,32 @@
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </cond>
                 <time id='ID3183391567b'>
                     <posattr x='-53.000000' y='-254.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </time>
                 <code id='ID3183391567c'>
                     <posattr x='-53.000000' y='-309.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </code>
                 <priority id='ID3183391567d'>
                     <posattr x='-110.000000' y='-309.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
-                    <text tool='CPN Tools' version='4.0.1'/>
+                    <text tool='CPN Tools' version='4.0.1'>
+                    </text>
                 </priority>
             </trans>
         </page>

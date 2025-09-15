@@ -31,55 +31,52 @@
                 <id>
                     Standard declarations
                 </id>
-                <color id='ID4'>
+                <block id='ID7676358849'>
                     <id>
-                        BOOL
+                        Rede Temporal
                     </id>
-                    <timed>
-                    </timed>
-                    <bool>
-                    </bool>
-                    <layout>
-                        colset BOOL = bool timed;
-                    </layout>
-                </color>
-                <color id='ID9247038536'>
-                    <id>
-                        Atraso
-                    </id>
-                    <int>
-                        <with>
-                            <ml>
-                                1
-                            </ml>
-                            <ml>
-                                10
-                            </ml>
-                        </with>
-                    </int>
-                    <layout>
-                        colset Atraso = int with 1..10;
-                    </layout>
-                </color>
-                <var id='ID1412330717'>
-                    <type>
+                    <color id='ID4'>
                         <id>
                             BOOL
                         </id>
-                    </type>
-                    <id>
-                        b
-                    </id>
-                    <id>
-                        c
-                    </id>
-                </var>
-                <ml id='ID5'>
-                    fun inverter b = not b;
-                </ml>
-                <ml id='ID9247066342'>
-                    fun Retardo() = round(normal(10.0,2.0));
-                </ml>
+                        <bool>
+                        </bool>
+                        <layout>
+                            colset BOOL = bool;
+                        </layout>
+                    </color>
+                    <color id='ID9247038536'>
+                        <id>
+                            Atraso
+                        </id>
+                        <int>
+                            <with>
+                                <ml>
+                                    1
+                                </ml>
+                                <ml>
+                                    10
+                                </ml>
+                            </with>
+                        </int>
+                        <layout>
+                            colset Atraso = int with 1..10;
+                        </layout>
+                    </color>
+                    <var id='ID1412330717'>
+                        <type>
+                            <id>
+                                BOOL
+                            </id>
+                        </type>
+                        <id>
+                            b
+                        </id>
+                    </var>
+                    <ml id='ID9247066342'>
+                        fun Atraso() = Atraso.ran();
+                    </ml>
+                </block>
             </block>
         </globbox>
         <page id='ID6'>
@@ -95,15 +92,15 @@
                     p1
                 </text>
                 <ellipse w='44.000000' h='38.000000'/>
-                <token x='-25.000000' y='46.000000'>
+                <token x='3.000000' y='11.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='6.000000' y='16.000000' hidden='false'>
+                <marking x='1.000000' y='3.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`true@26
+                        1`true
                     </text>
                 </marking>
                 <type id='ID7351335930a'>
@@ -190,14 +187,14 @@
                     </text>
                 </time>
                 <code id='ID7351340278c'>
-                    <posattr x='176.000000' y='202.000000'/>
+                    <posattr x='158.000000' y='202.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        input(b);
-output(c);
-action(not b);
+                        input();
+output();
+action();
                     </text>
                 </code>
                 <priority id='ID7351340278d'>
@@ -212,7 +209,7 @@ action(not b);
             <trans id='ID7353927662'>
                 <posattr x='-101.000000' y='248.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Black' thick='1' type='Solid'/>
+                <lineattr colour='Blue' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     Fechar porta
@@ -227,12 +224,12 @@ action(not b);
                     </text>
                 </cond>
                 <time id='ID7353927662b'>
-                    <posattr x='-38.000000' y='278.000000'/>
+                    <posattr x='-40.000000' y='278.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        @+Retardo()
+                        @+Atraso()
                     </text>
                 </time>
                 <code id='ID7353927662c'>
@@ -281,12 +278,12 @@ action(not b);
                 <transend idref='ID7351340278'/>
                 <placeend idref='ID7351338430'/>
                 <annot id='ID7351587698a'>
-                    <posattr x='111.000000' y='206.000000'/>
+                    <posattr x='112.000000' y='206.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        c
+                        b
                     </text>
                 </annot>
                 <text>
@@ -311,7 +308,7 @@ action(not b);
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9428969985' serial='1'>
+                <bendpoint id='ID7685149600' serial='1'>
                     <posattr x='-100.000000' y='146.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -337,7 +334,7 @@ action(not b);
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9428969986' serial='1'>
+                <bendpoint id='ID7685149601' serial='1'>
                     <posattr x='-101.000000' y='370.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -345,14 +342,13 @@ action(not b);
                 </bendpoint>
             </arc>
             <Aux id='ID9147201938'>
-                <posattr x='60.000000' y='60.000000'/>
+                <posattr x='66.000000' y='52.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='#980000' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <label>
                 </label>
                 <text>
-                    Rede 01 - Expressão de controle no arco de saída da transição
                 </text>
             </Aux>
         </page>

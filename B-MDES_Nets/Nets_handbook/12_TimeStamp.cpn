@@ -95,15 +95,15 @@
                     p1
                 </text>
                 <ellipse w='44.000000' h='38.000000'/>
-                <token x='-25.000000' y='46.000000'>
+                <token x='-27.000000' y='37.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='6.000000' y='16.000000' hidden='false'>
+                <marking x='-6.000000' y='-4.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`true@42
+                        1`false@21
                     </text>
                 </marking>
                 <type id='ID7351335930a'>
@@ -116,12 +116,12 @@
                     </text>
                 </type>
                 <initmark id='ID7351335930b'>
-                    <posattr x='146.000000' y='394.000000'/>
+                    <posattr x='151.000000' y='394.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        1`true@5
+                        1`true@10
                     </text>
                 </initmark>
             </place>
@@ -190,14 +190,14 @@
                     </text>
                 </time>
                 <code id='ID7351340278c'>
-                    <posattr x='196.000000' y='189.000000'/>
+                    <posattr x='163.000000' y='205.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        input(b);
-output(c);
-action(not b);
+                        input();
+output();
+action();
                     </text>
                 </code>
                 <priority id='ID7351340278d'>
@@ -212,7 +212,7 @@ action(not b);
             <trans id='ID7353927662'>
                 <posattr x='-101.000000' y='248.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Black' thick='1' type='Solid'/>
+                <lineattr colour='Blue' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     Fechar porta
@@ -227,7 +227,7 @@ action(not b);
                     </text>
                 </cond>
                 <time id='ID7353927662b'>
-                    <posattr x='-38.000000' y='278.000000'/>
+                    <posattr x='-37.000000' y='278.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -281,12 +281,12 @@ action(not b);
                 <transend idref='ID7351340278'/>
                 <placeend idref='ID7351338430'/>
                 <annot id='ID7351587698a'>
-                    <posattr x='111.000000' y='206.000000'/>
+                    <posattr x='113.000000' y='206.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        c
+                        b
                     </text>
                 </annot>
                 <text>
@@ -311,7 +311,7 @@ action(not b);
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9429206041' serial='1'>
+                <bendpoint id='ID7689769942' serial='1'>
                     <posattr x='-100.000000' y='146.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -337,7 +337,7 @@ action(not b);
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID9429206043' serial='1'>
+                <bendpoint id='ID7689769943' serial='1'>
                     <posattr x='-101.000000' y='370.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -345,7 +345,7 @@ action(not b);
                 </bendpoint>
             </arc>
             <Aux id='ID9147201938'>
-                <posattr x='60.000000' y='60.000000'/>
+                <posattr x='234.000000' y='39.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='#980000' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>

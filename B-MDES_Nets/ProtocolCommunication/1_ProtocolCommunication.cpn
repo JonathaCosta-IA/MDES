@@ -102,19 +102,23 @@
                     Pacotes a enviar
                 </text>
                 <ellipse w='95.000000' h='53.000000'/>
-                <token x='-29.000000' y='50.000000'>
+                <token x='-8.000000' y='30.000000'>
                     <text>
-                        5
+                        9
                     </text>
                 </token>
-                <marking x='6.000000' y='80.000000' hidden='false'>
+                <marking x='12.000000' y='81.000000' hidden='true'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`(4,&quot;Pet&quot;)++
+                        1`(1,&quot;Re&quot;)++
+1`(2,&quot;des&quot;)++
+1`(3,&quot;de&quot;)++
+1`(4,&quot;Pet&quot;)++
 1`(5,&quot;ri&quot;)++
-1`(6,&quot;Col&quot;)++
-1`(7,&quot;ri&quot;)++
-1`(8,&quot;das.&quot;)
+1`(6,&quot;Co&quot;)++
+1`(7,&quot;lo&quot;)++
+1`(8,&quot;ri&quot;)++
+1`(9,&quot;das.&quot;)
                     </text>
                 </marking>
                 <type id='ID7835711635a'>
@@ -127,7 +131,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835711635b'>
-                    <posattr x='-238.000000' y='379.000000'/>
+                    <posattr x='-214.000000' y='369.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -137,9 +141,10 @@
 1`(3,&quot;de&quot;)++
 1`(4,&quot;Pet&quot;)++
 1`(5,&quot;ri&quot;)++
-1`(6,&quot;Col&quot;)++
-1`(7,&quot;ri&quot;)++
-1`(8,&quot;das.&quot;)
+1`(6,&quot;Co&quot;)++
+1`(7,&quot;lo&quot;)++
+1`(8,&quot;ri&quot;)++
+1`(9,&quot;das.&quot;)
                     </text>
                 </initmark>
             </place>
@@ -160,7 +165,7 @@
                 <marking x='33.000000' y='46.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`(3,&quot;de&quot;)
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835745743a'>
@@ -236,7 +241,7 @@
                 <marking x='3.000000' y='2.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        empty
+                        1`1
                     </text>
                 </marking>
                 <type id='ID7835803696a'>
@@ -275,8 +280,7 @@
                 <marking x='0.000000' y='7.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`(1,&quot;Re&quot;)++
-1`(2,&quot;des&quot;)
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835814076a'>
@@ -522,7 +526,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8287579028' serial='1'>
+                <bendpoint id='ID8831000659' serial='1'>
                     <posattr x='84.000000' y='225.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -548,7 +552,7 @@
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8287579029' serial='1'>
+                <bendpoint id='ID8831000661' serial='1'>
                     <posattr x='150.000000' y='135.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -596,7 +600,7 @@
                 </text>
             </arc>
             <Aux id='ID7936853245'>
-                <posattr x='-110.000000' y='62.000000'/>
+                <posattr x='-24.000000' y='535.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Blue' thick='5' type='Solid'/>
                 <textattr colour='Black' bold='false'/>

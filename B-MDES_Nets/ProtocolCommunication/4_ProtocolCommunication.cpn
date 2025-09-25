@@ -232,7 +232,7 @@
                     </id>
                 </var>
                 <ml id='ID7837491354'>
-                    val pacotes = 1`(1,&quot;Re&quot;)++1`(2,&quot;des&quot;)++1`(3,&quot; de &quot;)++1`(4,&quot;Pet&quot;)++1`(5,&quot;ri&quot;)++1`(6,&quot; Col&quot;)++1`(7,&quot;ori&quot;)++1`(8,&quot;das.&quot;)
+                    val pacotes = 1`(1,&quot;Re&quot;)++1`(2,&quot;des&quot;)++1`(3,&quot; de &quot;)++1`(4,&quot;Pet&quot;)++1`(5,&quot;ri&quot;)++1`(6,&quot; Co&quot;)++1`(7,&quot;lo&quot;)++1`(8,&quot;ri&quot;)++1`(9,&quot;das.&quot;)
                 </ml>
             </block>
         </globbox>
@@ -249,9 +249,9 @@
                     Pacotes a enviar
                 </text>
                 <ellipse w='95.000000' h='53.000000'/>
-                <token x='-29.000000' y='50.000000'>
+                <token x='-28.000000' y='50.000000'>
                     <text>
-                        8
+                        9
                     </text>
                 </token>
                 <marking x='6.000000' y='80.000000' hidden='false'>
@@ -262,9 +262,10 @@
 1`(3,&quot; de &quot;)++
 1`(4,&quot;Pet&quot;)++
 1`(5,&quot;ri&quot;)++
-1`(6,&quot; Col&quot;)++
-1`(7,&quot;ori&quot;)++
-1`(8,&quot;das.&quot;)
+1`(6,&quot; Co&quot;)++
+1`(7,&quot;lo&quot;)++
+1`(8,&quot;ri&quot;)++
+1`(9,&quot;das.&quot;)
                     </text>
                 </marking>
                 <type id='ID7835711635a'>
@@ -297,13 +298,13 @@
                 <ellipse w='34.000000' h='28.000000'/>
                 <token x='-2.000000' y='36.000000'>
                     <text>
-                        9
+                        1
                     </text>
                 </token>
                 <marking x='-16.000000' y='23.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        9`Dado({seq=3,dado=&quot; de &quot;})
+                        1`Dado({seq=2,dado=&quot;des&quot;})
                     </text>
                 </marking>
                 <type id='ID7835745743a'>
@@ -333,15 +334,15 @@
                     B
                 </text>
                 <ellipse w='39.000000' h='36.000000'/>
-                <token x='-24.000000' y='40.000000'>
+                <token x='-23.000000' y='40.000000'>
                     <text>
-                        3
+                        1
                     </text>
                 </token>
                 <marking x='47.000000' y='14.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        3`Dado({seq=3,dado=&quot; de &quot;})
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835775379a'>
@@ -371,15 +372,15 @@
                     D
                 </text>
                 <ellipse w='35.000000' h='32.000000'/>
-                <token x='-32.000000' y='-38.000000'>
+                <token x='-31.000000' y='-38.000000'>
                     <text>
-                        3
+                        1
                     </text>
                 </token>
                 <marking x='-5.000000' y='-15.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        3`Receber(4)
+                        1`Receber(2)
                     </text>
                 </marking>
                 <type id='ID7835784961a'>
@@ -409,16 +410,15 @@
                     C
                 </text>
                 <ellipse w='33.000000' h='32.000000'/>
-                <token x='0.000000' y='-32.000000'>
+                <token x='1.000000' y='-32.000000'>
                     <text>
-                        4
+                        1
                     </text>
                 </token>
                 <marking x='2.000000' y='1.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        2`Receber(3)++
-2`Receber(4)
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835789732a'>
@@ -456,7 +456,7 @@
                 <marking x='-10.000000' y='10.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`3
+                        1`2
                     </text>
                 </marking>
                 <type id='ID7835803696a'>
@@ -495,7 +495,7 @@
                 <marking x='-6.000000' y='8.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`&quot;Redes de &quot;
+                        1`&quot;Re&quot;
                     </text>
                 </marking>
                 <type id='ID7835814076a'>
@@ -534,7 +534,7 @@
                 <marking x='-1.000000' y='8.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`4
+                        1`2
                     </text>
                 </marking>
                 <type id='ID7841597080a'>
@@ -874,7 +874,7 @@ dado=d})
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7943030541' serial='1'>
+                <bendpoint id='ID8831093282' serial='1'>
                     <posattr x='337.000000' y='225.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -902,7 +902,7 @@ else dado
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7943030543' serial='1'>
+                <bendpoint id='ID8831093283' serial='1'>
                     <posattr x='427.000000' y='128.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -930,7 +930,7 @@ else Receber(k)
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID7943030544' serial='1'>
+                <bendpoint id='ID8831093284' serial='1'>
                     <posattr x='337.000000' y='14.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -1108,7 +1108,7 @@ else k
                 <transend idref='ID7835863589'/>
                 <placeend idref='ID7835784961'/>
                 <annot id='ID7941482346a'>
-                    <posattr x='-116.000000' y='60.000000'/>
+                    <posattr x='-131.000000' y='60.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1125,7 +1125,7 @@ else empty
                 </text>
             </arc>
             <Aux id='ID7843939848'>
-                <posattr x='356.000000' y='-236.000000'/>
+                <posattr x='-16.000000' y='-310.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Blue' thick='3' type='Solid'/>
                 <textattr colour='Black' bold='false'/>

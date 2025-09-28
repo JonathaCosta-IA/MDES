@@ -249,12 +249,12 @@
                     Pacotes a enviar
                 </text>
                 <ellipse w='95.000000' h='53.000000'/>
-                <token x='-25.000000' y='50.000000'>
+                <token x='-5.000000' y='16.000000'>
                     <text>
                         9
                     </text>
                 </token>
-                <marking x='68.000000' y='15.000000' hidden='false'>
+                <marking x='57.000000' y='30.000000' hidden='true'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         1`(1,&quot;Re&quot;)++
@@ -339,7 +339,7 @@
                         1
                     </text>
                 </token>
-                <marking x='3.000000' y='1.000000' hidden='false'>
+                <marking x='4.000000' y='1.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         empty
@@ -415,7 +415,7 @@
                         2
                     </text>
                 </token>
-                <marking x='15.000000' y='1.000000' hidden='false'>
+                <marking x='16.000000' y='1.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         empty
@@ -873,7 +873,7 @@ dado=d})
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8913839602' serial='1'>
+                <bendpoint id='ID9010594382' serial='1'>
                     <posattr x='275.000000' y='225.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -901,7 +901,7 @@ else dado
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8913839603' serial='1'>
+                <bendpoint id='ID9010594383' serial='1'>
                     <posattr x='365.000000' y='128.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -929,7 +929,7 @@ else Receber(k)
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8913839604' serial='1'>
+                <bendpoint id='ID9010594384' serial='1'>
                     <posattr x='275.000000' y='14.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
@@ -1107,7 +1107,7 @@ else k
                 <transend idref='ID7835863589'/>
                 <placeend idref='ID7835784961'/>
                 <annot id='ID7941482346a'>
-                    <posattr x='-82.000000' y='76.000000'/>
+                    <posattr x='-84.000000' y='73.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1123,24 +1123,6 @@ else empty
                 <text>
                 </text>
             </arc>
-            <Aux id='ID7843939848'>
-                <posattr x='365.000000' y='-497.000000'/>
-                <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Blue' thick='3' type='Solid'/>
-                <textattr colour='Black' bold='false'/>
-                <label>
-                </label>
-                <text>
-                    ------------------------------ 
-Protocolo de Comunicação 
-Versão 04
------------------------------- 
-Otimizações:
-
-1. Inclusão de colsets: record, union, pacotes;
-2. Tratar pacotes duplicado;
-                </text>
-            </Aux>
         </page>
         <instances>
             <instance id='ID6itop' page='ID6'/>

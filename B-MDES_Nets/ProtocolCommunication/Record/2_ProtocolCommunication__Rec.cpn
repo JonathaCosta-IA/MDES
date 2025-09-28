@@ -242,7 +242,7 @@
                     </id>
                 </var>
                 <ml id='ID7837491354'>
-                    val pacotes = 1`(1,&quot;Re&quot;)++1`(2,&quot;des&quot;)++1`(3,&quot; de &quot;)++1`(4,&quot;Pet&quot;)++1`(5,&quot;ri&quot;)++1`(6,&quot; Col&quot;)++1`(7,&quot;ori&quot;)++1`(8,&quot;das.&quot;)
+                    val pacotes = 1`(1,&quot;Re&quot;)++1`(2,&quot;des&quot;)++1`(3,&quot; de &quot;)++1`(4,&quot;Pe&quot;)++1`(5,&quot;tri&quot;)++1`(6,&quot; Co&quot;)++1`(7,&quot;lo&quot;)++1`(8,&quot;ri&quot;)++1`(9,&quot;das.&quot;)
                 </ml>
             </block>
         </globbox>
@@ -251,7 +251,7 @@
             <constraints>
             </constraints>
             <place id='ID7835711635'>
-                <posattr x='-320.000000' y='333.000000'/>
+                <posattr x='-314.000000' y='333.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -259,26 +259,27 @@
                     Pacotes a enviar
                 </text>
                 <ellipse w='95.000000' h='53.000000'/>
-                <token x='-26.000000' y='50.000000'>
+                <token x='-12.000000' y='12.000000'>
                     <text>
-                        8
+                        9
                     </text>
                 </token>
-                <marking x='22.000000' y='37.000000' hidden='false'>
+                <marking x='69.000000' y='31.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         1`(1,&quot;Re&quot;)++
 1`(2,&quot;des&quot;)++
 1`(3,&quot; de &quot;)++
-1`(4,&quot;Pet&quot;)++
-1`(5,&quot;ri&quot;)++
-1`(6,&quot; Col&quot;)++
-1`(7,&quot;ori&quot;)++
-1`(8,&quot;das.&quot;)
+1`(4,&quot;Pe&quot;)++
+1`(5,&quot;tri&quot;)++
+1`(6,&quot; Co&quot;)++
+1`(7,&quot;lo&quot;)++
+1`(8,&quot;ri&quot;)++
+1`(9,&quot;das.&quot;)
                     </text>
                 </marking>
                 <type id='ID7835711635a'>
-                    <posattr x='-261.000000' y='304.000000'/>
+                    <posattr x='-255.000000' y='304.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -287,7 +288,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835711635b'>
-                    <posattr x='-244.000000' y='369.000000'/>
+                    <posattr x='-238.000000' y='369.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -297,7 +298,7 @@
                 </initmark>
             </place>
             <place id='ID7835745743'>
-                <posattr x='-154.000000' y='224.000000'/>
+                <posattr x='-149.000000' y='225.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -305,19 +306,19 @@
                     A
                 </text>
                 <ellipse w='34.000000' h='28.000000'/>
-                <token x='-2.000000' y='36.000000'>
+                <token x='-22.000000' y='34.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='-116.000000' y='24.000000' hidden='false'>
+                <marking x='-34.000000' y='22.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         empty
                     </text>
                 </marking>
                 <type id='ID7835745743a'>
-                    <posattr x='-116.000000' y='204.000000'/>
+                    <posattr x='-111.000000' y='205.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -326,7 +327,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835745743b'>
-                    <posattr x='-121.000000' y='246.000000'/>
+                    <posattr x='-116.000000' y='247.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -335,9 +336,9 @@
                 </initmark>
             </place>
             <place id='ID7835775379'>
-                <posattr x='138.000000' y='224.000000'/>
+                <posattr x='143.000000' y='225.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Blue' thick='1' type='Solid'/>
+                <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     B
@@ -348,14 +349,14 @@
                         1
                     </text>
                 </token>
-                <marking x='-19.000000' y='23.000000' hidden='false'>
+                <marking x='-17.000000' y='21.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`Dado({seq=1,dado=&quot;Re&quot;})
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835775379a'>
-                    <posattr x='155.000000' y='193.000000'/>
+                    <posattr x='160.000000' y='194.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -364,7 +365,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835775379b'>
-                    <posattr x='175.000000' y='250.000000'/>
+                    <posattr x='179.000000' y='251.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -373,7 +374,7 @@
                 </initmark>
             </place>
             <place id='ID7835784961'>
-                <posattr x='-153.000000' y='14.000000'/>
+                <posattr x='-164.000000' y='15.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -386,14 +387,14 @@
                         1
                     </text>
                 </token>
-                <marking x='-4.000000' y='-15.000000' hidden='false'>
+                <marking x='-3.000000' y='-16.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`Receber(2)
+                        empty
                     </text>
                 </marking>
                 <type id='ID7835784961a'>
-                    <posattr x='-140.000000' y='-18.000000'/>
+                    <posattr x='-151.000000' y='-17.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -402,7 +403,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835784961b'>
-                    <posattr x='-119.000000' y='38.000000'/>
+                    <posattr x='-130.000000' y='39.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -411,7 +412,7 @@
                 </initmark>
             </place>
             <place id='ID7835789732'>
-                <posattr x='139.000000' y='14.000000'/>
+                <posattr x='143.000000' y='15.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -424,14 +425,14 @@
                         1
                     </text>
                 </token>
-                <marking x='16.000000' y='1.000000' hidden='false'>
+                <marking x='22.000000' y='1.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
                         empty
                     </text>
                 </marking>
                 <type id='ID7835789732a'>
-                    <posattr x='174.000000' y='-4.000000'/>
+                    <posattr x='178.000000' y='-3.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -440,7 +441,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835789732b'>
-                    <posattr x='169.000000' y='38.000000'/>
+                    <posattr x='173.000000' y='39.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -449,7 +450,7 @@
                 </initmark>
             </place>
             <place id='ID7835803696'>
-                <posattr x='-320.000000' y='127.000000'/>
+                <posattr x='-314.000000' y='127.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -457,19 +458,19 @@
                     Próximo Envio
                 </text>
                 <ellipse w='70.000000' h='40.000000'/>
-                <token x='-17.000000' y='39.000000'>
+                <token x='-7.000000' y='23.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='-10.000000' y='10.000000' hidden='false'>
+                <marking x='-5.000000' y='-2.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`2
+                        1`1
                     </text>
                 </marking>
                 <type id='ID7835803696a'>
-                    <posattr x='-276.000000' y='100.000000'/>
+                    <posattr x='-270.000000' y='100.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -478,7 +479,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835803696b'>
-                    <posattr x='-273.000000' y='155.000000'/>
+                    <posattr x='-267.000000' y='155.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -488,7 +489,7 @@
                 </initmark>
             </place>
             <place id='ID7835814076'>
-                <posattr x='323.000000' y='320.000000'/>
+                <posattr x='322.000000' y='311.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -496,19 +497,19 @@
                     Pacotes recebidos
                 </text>
                 <ellipse w='90.000000' h='64.000000'/>
-                <token x='-12.000000' y='57.000000'>
+                <token x='-21.000000' y='38.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='7.000000' y='8.000000' hidden='false'>
+                <marking x='-5.000000' y='7.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`&quot;Re&quot;
+                        1`&quot;&quot;
                     </text>
                 </marking>
                 <type id='ID7835814076a'>
-                    <posattr x='369.000000' y='288.000000'/>
+                    <posattr x='368.000000' y='279.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -517,7 +518,7 @@
                     </text>
                 </type>
                 <initmark id='ID7835814076b'>
-                    <posattr x='383.000000' y='360.000000'/>
+                    <posattr x='382.000000' y='351.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -535,15 +536,15 @@
                     Próximo Recebimento
                 </text>
                 <ellipse w='94.000000' h='55.000000'/>
-                <token x='-134.000000' y='32.000000'>
+                <token x='-99.000000' y='33.000000'>
                     <text>
                         1
                     </text>
                 </token>
-                <marking x='91.000000' y='9.000000' hidden='false'>
+                <marking x='3.000000' y='5.000000' hidden='false'>
                     <snap snap_id='0' anchor.horizontal='0' anchor.vertical='0'/>
                     <text>
-                        1`2
+                        1`1
                     </text>
                 </marking>
                 <type id='ID7841597080a'>
@@ -566,7 +567,7 @@
                 </initmark>
             </place>
             <trans id='ID7835819631'>
-                <posattr x='-319.000000' y='224.000000'/>
+                <posattr x='-313.000000' y='224.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -575,7 +576,7 @@
                 </text>
                 <box w='63.000000' h='32.000000'/>
                 <cond id='ID7835819631a'>
-                    <posattr x='-345.000000' y='248.000000'/>
+                    <posattr x='-339.000000' y='248.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -583,7 +584,7 @@
                     </text>
                 </cond>
                 <time id='ID7835819631b'>
-                    <posattr x='-295.000000' y='248.000000'/>
+                    <posattr x='-289.000000' y='248.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -591,7 +592,7 @@
                     </text>
                 </time>
                 <code id='ID7835819631c'>
-                    <posattr x='-295.000000' y='202.000000'/>
+                    <posattr x='-289.000000' y='202.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -599,7 +600,7 @@
                     </text>
                 </code>
                 <priority id='ID7835819631d'>
-                    <posattr x='-345.000000' y='202.000000'/>
+                    <posattr x='-339.000000' y='202.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -650,24 +651,25 @@
                 </priority>
             </trans>
             <trans id='ID7835852645'>
-                <posattr x='231.000000' y='127.000000'/>
+                <posattr x='236.000000' y='127.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Black' thick='1' type='Solid'/>
+                <lineattr colour='Blue' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <text>
                     Receber pacote
                 </text>
                 <box w='70.000000' h='40.000000'/>
                 <cond id='ID7835852645a'>
-                    <posattr x='202.000000' y='155.000000'/>
+                    <posattr x='361.000000' y='102.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
+                        [n=(#seq pacote_dado)]
                     </text>
                 </cond>
                 <time id='ID7835852645b'>
-                    <posattr x='260.000000' y='155.000000'/>
+                    <posattr x='265.000000' y='155.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -675,7 +677,7 @@
                     </text>
                 </time>
                 <code id='ID7835852645c'>
-                    <posattr x='260.000000' y='100.000000'/>
+                    <posattr x='265.000000' y='100.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -683,7 +685,7 @@
                     </text>
                 </code>
                 <priority id='ID7835852645d'>
-                    <posattr x='202.000000' y='100.000000'/>
+                    <posattr x='207.000000' y='100.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -734,7 +736,7 @@
                 </priority>
             </trans>
             <trans id='ID7835883449'>
-                <posattr x='-320.000000' y='14.000000'/>
+                <posattr x='-314.000000' y='14.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
                 <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
@@ -743,7 +745,7 @@
                 </text>
                 <box w='112.000000' h='44.000000'/>
                 <cond id='ID7835883449a'>
-                    <posattr x='-370.000000' y='44.000000'/>
+                    <posattr x='-364.000000' y='44.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -751,7 +753,7 @@
                     </text>
                 </cond>
                 <time id='ID7835883449b'>
-                    <posattr x='-271.000000' y='44.000000'/>
+                    <posattr x='-265.000000' y='44.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -759,7 +761,7 @@
                     </text>
                 </time>
                 <code id='ID7835883449c'>
-                    <posattr x='-271.000000' y='-13.000000'/>
+                    <posattr x='-265.000000' y='-13.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -767,7 +769,7 @@
                     </text>
                 </code>
                 <priority id='ID7835883449d'>
-                    <posattr x='-370.000000' y='-13.000000'/>
+                    <posattr x='-364.000000' y='-13.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -784,7 +786,7 @@
                 <transend idref='ID7835819631'/>
                 <placeend idref='ID7835711635'/>
                 <annot id='ID7835938163a'>
-                    <posattr x='-360.000000' y='273.000000'/>
+                    <posattr x='-354.000000' y='273.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -798,13 +800,13 @@
             <arc id='ID7836012924' orientation='TtoP' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Blue' thick='1' type='Solid'/>
+                <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
                 <transend idref='ID7835819631'/>
                 <placeend idref='ID7835745743'/>
                 <annot id='ID7836012924a'>
-                    <posattr x='-235.000000' y='247.000000'/>
+                    <posattr x='-229.000000' y='247.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -826,7 +828,7 @@ dado=d})
                 <transend idref='ID7835842822'/>
                 <placeend idref='ID7835745743'/>
                 <annot id='ID7836020526a'>
-                    <posattr x='-99.000000' y='232.000000'/>
+                    <posattr x='-97.000000' y='233.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -846,15 +848,15 @@ dado=d})
                 <transend idref='ID7835842822'/>
                 <placeend idref='ID7835775379'/>
                 <annot id='ID7836036742a'>
-                    <posattr x='92.000000' y='282.000000'/>
+                    <posattr x='97.000000' y='276.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        if res=ok 
+                        if res = ok 
 then 1`pacote 
 else 
-if res=duplicado 
+if res = duplicado 
 then 2`pacote 
 else empty
                     </text>
@@ -865,13 +867,13 @@ else empty
             <arc id='ID7836053992' orientation='PtoT' order='1'>
                 <posattr x='0.000000' y='0.000000'/>
                 <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Blue' thick='1' type='Solid'/>
+                <lineattr colour='Black' thick='1' type='Solid'/>
                 <textattr colour='Black' bold='false'/>
                 <arrowattr headsize='1' currentcyckle='2'/>
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7835775379'/>
                 <annot id='ID7836053992a'>
-                    <posattr x='213.000000' y='251.000000'/>
+                    <posattr x='217.000000' y='245.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -882,8 +884,8 @@ pacote_dado
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8909550719' serial='1'>
-                    <posattr x='231.000000' y='224.000000'/>
+                <bendpoint id='ID9019241672' serial='1'>
+                    <posattr x='236.000000' y='225.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -898,14 +900,13 @@ pacote_dado
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7835814076'/>
                 <annot id='ID7836075231a'>
-                    <posattr x='404.000000' y='190.000000'/>
+                    <posattr x='401.000000' y='187.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        if
-(#seq pacote_dado)= k
-then 
+                        if n=k
+then
 dado^
 (#dado pacote_dado)
 else dado
@@ -913,8 +914,8 @@ else dado
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8909550720' serial='1'>
-                    <posattr x='323.000000' y='127.000000'/>
+                <bendpoint id='ID9019241673' serial='1'>
+                    <posattr x='322.000000' y='127.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -929,22 +930,20 @@ else dado
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7835789732'/>
                 <annot id='ID7836091046a'>
-                    <posattr x='311.000000' y='62.000000'/>
+                    <posattr x='296.000000' y='62.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        if
-(#seq pacote_dado)=k 
-then 
+                        if n=k then 
 Receber(k+1) 
 else Receber(k)
                     </text>
                 </annot>
                 <text>
                 </text>
-                <bendpoint id='ID8909550721' serial='1'>
-                    <posattr x='231.000000' y='13.000000'/>
+                <bendpoint id='ID9019241676' serial='1'>
+                    <posattr x='236.000000' y='14.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -959,7 +958,7 @@ else Receber(k)
                 <transend idref='ID7835863589'/>
                 <placeend idref='ID7835789732'/>
                 <annot id='ID7836119044a'>
-                    <posattr x='82.000000' y='-2.000000'/>
+                    <posattr x='85.000000' y='-1.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -979,7 +978,7 @@ else Receber(k)
                 <transend idref='ID7835883449'/>
                 <placeend idref='ID7835784961'/>
                 <annot id='ID7836144812a'>
-                    <posattr x='-210.000000' y='-3.000000'/>
+                    <posattr x='-212.000000' y='-14.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -999,7 +998,7 @@ else Receber(k)
                 <transend idref='ID7835883449'/>
                 <placeend idref='ID7835803696'/>
                 <annot id='ID7836152959a'>
-                    <posattr x='-301.000000' y='72.000000'/>
+                    <posattr x='-295.000000' y='72.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1019,7 +1018,7 @@ else Receber(k)
                 <transend idref='ID7835819631'/>
                 <placeend idref='ID7835803696'/>
                 <annot id='ID7836173274a'>
-                    <posattr x='-328.000000' y='179.000000'/>
+                    <posattr x='-322.000000' y='179.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1039,7 +1038,7 @@ else Receber(k)
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7835814076'/>
                 <annot id='ID7841517001a'>
-                    <posattr x='281.000000' y='205.000000'/>
+                    <posattr x='283.000000' y='200.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1059,7 +1058,7 @@ else Receber(k)
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7841597080'/>
                 <annot id='ID7841652168a'>
-                    <posattr x='150.000000' y='140.000000'/>
+                    <posattr x='153.000000' y='140.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1079,13 +1078,12 @@ else Receber(k)
                 <transend idref='ID7835852645'/>
                 <placeend idref='ID7841597080'/>
                 <annot id='ID7841657685a'>
-                    <posattr x='147.000000' y='67.000000'/>
+                    <posattr x='153.000000' y='88.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        if 
-(#seq pacote_dado)=k
+                        if n=k
 then k+1
 else k
                     </text>
@@ -1102,7 +1100,7 @@ else k
                 <transend idref='ID7835883449'/>
                 <placeend idref='ID7835803696'/>
                 <annot id='ID7842761714a'>
-                    <posattr x='-339.000000' y='68.000000'/>
+                    <posattr x='-333.000000' y='68.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
@@ -1122,15 +1120,15 @@ else k
                 <transend idref='ID7835863589'/>
                 <placeend idref='ID7835784961'/>
                 <annot id='ID7941482346a'>
-                    <posattr x='-93.000000' y='80.000000'/>
+                    <posattr x='-89.000000' y='71.000000'/>
                     <fillattr colour='White' pattern='Solid' filled='false'/>
                     <lineattr colour='Black' thick='1' type='Solid'/>
                     <textattr colour='Black' bold='false'/>
                     <text tool='CPN Tools' version='4.0.1'>
-                        if res=ok 
+                        if res = ok 
 then 1`pacote 
 else 
-if res=duplicado 
+if res = duplicado 
 then 2`pacote 
 else empty
                     </text>
@@ -1138,26 +1136,6 @@ else empty
                 <text>
                 </text>
             </arc>
-            <Aux id='ID7843939848'>
-                <posattr x='0.000000' y='-117.000000'/>
-                <fillattr colour='White' pattern='Solid' filled='false'/>
-                <lineattr colour='Blue' thick='3' type='Solid'/>
-                <textattr colour='Black' bold='false'/>
-                <label>
-                </label>
-                <text>
-                    ------------------------------ 
-Protocolo de Comunicação 
-Versão 05
------------------------------- 
-Otimizações:
-
-1. Definindo:
-    var pacote_dado: PACOTE_DADO;
-2. Utizando a estrutura:
-   (#seq pacote_dado) em lugar de n
-                </text>
-            </Aux>
         </page>
         <instances>
             <instance id='ID6itop' page='ID6'/>
